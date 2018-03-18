@@ -1,6 +1,5 @@
 // const RpcClient = require('node-json-rpc').Client;
-const RpcClient = require('../lib/index').Client;
-const RpcServer = require('../lib/index').Server;
+const { Server: RpcServer, Client: RpcClient} = require('../lib/index');
 
 const server = new RpcServer({
     protocol: 'http',
