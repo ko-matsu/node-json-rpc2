@@ -1,7 +1,7 @@
 {
-  "name": "node-json-rpc2",
+  "name": "node-json-rpc2.0",
   "description": "A small and easy to use JSON-RPC 2.0 for node.js.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "./lib/index.js",
   "keywords": [
     "json",
@@ -10,17 +10,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Alex-Werner/node-json-rpc2.git"
+    "url": "https://github.com/lart5/node-json-rpc2"
   },
   "author": {
     "name": "Alex-Werner",
     "email": "alex@werner.fr"
   },
+  "contributors": [{
+    "name": "Vitalii Hnidenko",
+    "email": "vitalii.hnidenko@gmail.com"
+  }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Alex-Werner/node-json-rpc2/issues"
+    "url": "https://github.com/lart5/node-json-rpc2/issues"
   },
-  "homepage": "https://github.com/Alex-Werner/node-json-rpc2#readme",
+  "homepage": "https://github.com/lart5/node-json-rpc2#readme",
   "dependencies": {
   }
 }
