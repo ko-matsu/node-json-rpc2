@@ -23,20 +23,6 @@ let client = new RpcClient({
 	method: 'GET'
 });
 
-console.log('Testing callback based call');
-
-client.call(
-    'add',
-    [1, 2],
-		(err, res) => {
-    	console.log('Callback:');
-	    if(err){
-	        console.log(err);
-	    }
-	    console.log('Data:',res);
-    }
-);
-
 console.log('Testing Promise based call');
 
 client.callPromise('add', [1, 2]).then((data) => {
